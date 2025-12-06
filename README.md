@@ -26,23 +26,18 @@ A lightweight bash script that automatically updates Cloudflare DNS records when
    cd cloudflare
    ```
 
-2. **Create the cache directory:**
-   ```bash
-   mkdir -p cache
-   ```
-
-3. **Configure environment variables:**
+2. **Configure environment variables:**
    ```bash
    cp scripts/.env.example scripts/.env
    # Edit scripts/.env with your Cloudflare credentials
    ```
 
-4. **Make scripts executable:**
+3. **Make scripts executable:**
    ```bash
    chmod +x scripts/*.sh
    ```
 
-5. **Create a symlink (optional but recommended):**
+4. **Create a symlink (optional but recommended):**
    ```bash
    ln -s ~/cloudflare/scripts/check_and_update.sh /usr/local/bin/cloudflare-update
    ```
@@ -61,7 +56,7 @@ TRACKED_RECORDS="subdomain1.example.com,subdomain2.example.com"
 ### Getting your Cloudflare credentials:
 
 - **Zone ID**: Found in your domain's overview page on the Cloudflare dashboard
-- **API Token**: Create one at `My Profile > API Tokens` with `Zone.DNS` edit permissions
+- **API Token**: Create one at `My Profile > API Tokens` with `Zone.DNS` edit AND read permissions
 - **Tracked Records**: Comma-separated list of DNS record names you want to update
 
 ## Usage
@@ -99,7 +94,7 @@ tail -f ~/cloudflare/dns.log
 3. If unchanged, exits early (no unnecessary API calls)
 4. If changed:
    - Fetches your tracked DNS records from Cloudflare
-   - Updates each record with the new IP
+   - Updates each record with the new IP *If you need different ips for different dns records youll need to make that change*
    - Updates the cache
    - Logs everything with timestamps
 
