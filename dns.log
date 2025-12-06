@@ -1,0 +1,103 @@
+
+========== 2025-12-05 17:33:55 ==========
+---------------------
+Checking media.artyultra.dev record
+No change for media.artyultra.dev
+---------------------
+Checking torrent.artyultra.dev record
+No change for torrent.artyultra.dev
+================== DONE =================
+
+
+========== 2025-12-05 17:34:54 ==========
+---------------------
+Checking media.artyultra.dev record
+Updating content (ip address) for media.artyultra.dev record
+jq: error (at <stdin>:1): Cannot iterate over null (null)
+Errors:
+  - Missing X-Auth-Key, X-Auth-Email or Authorization headers
+---------------------
+Checking torrent.artyultra.dev record
+Updating content (ip address) for torrent.artyultra.dev record
+jq: error (at <stdin>:1): Cannot iterate over null (null)
+Errors:
+  - Missing X-Auth-Key, X-Auth-Email or Authorization headers
+================== DONE =================
+
+
+========== 2025-12-05 17:35:28 ==========
+---------------------
+Checking media.artyultra.dev record
+Updating content (ip address) for media.artyultra.dev record
+Errors:
+  - Could not route to /client/v4/zones/dns_records/1598544765b99d8f410b9ee9eee81f2a, perhaps your object identifier is invalid?
+---------------------
+Checking torrent.artyultra.dev record
+Updating content (ip address) for torrent.artyultra.dev record
+Errors:
+  - Could not route to /client/v4/zones/dns_records/0f3b0d8830654d3d2240971314cda98c, perhaps your object identifier is invalid?
+================== DONE =================
+
+
+========== 2025-12-05 17:35:46 ==========
+No change in IP address
+================== DONE =================
+
+[2025-12-05 18:37:45] [INFO] Cached IP Addr updated from:  --> 136.38.211.90
+[2025-12-05 18:37:46] [INFO] ✓ IP addr is up to date for media.artyultra.dev
+[2025-12-05 18:37:46] [INFO] ✓ IP addr is up to date for torrent.artyultra.dev
+[2025-12-05 18:38:24] [INFO] No change in IP address
+[2025-12-05 18:39:08] [INFO] Cached IP Addr updated from:  --> 136.38.211.90
+[2025-12-05 18:39:09] [INFO] ✓ Updated media.artyultra.dev to 136.38.211.90
+[2025-12-05 18:39:09] [INFO] ✓ IP addr is up to date for torrent.artyultra.dev
+[2025-12-05 19:27:52] [INFO]  ==== Starting DNS Check/Update ==== 
+[2025-12-05 19:27:52] [INFO] No change in IP address
+[2025-12-05 19:28:33] [INFO]  ==== Starting DNS Check/Update ==== 
+[2025-12-05 19:28:33] [INFO] Cached IP Addr updated from:  --> 136.38.211.90
+[2025-12-05 19:28:34] [INFO] ✓ media.artyultra.dev is already up to date
+[2025-12-05 19:28:35] [INFO] ✓ torrent.artyultra.dev is already up to date
+[2025-12-05 19:28:35] [INFO]  ============== DONE =============== 
+[2025-12-05 19:29:28] [INFO]  ==== Starting DNS Check/Update ==== 
+[2025-12-05 19:29:28] [INFO] No change in IP address
+[2025-12-05 19:29:40] [INFO]  ==== Starting DNS Check/Update ==== 
+[2025-12-05 19:29:40] [INFO] Cached IP Addr updated from:  --> 136.38.211.90
+[2025-12-05 19:29:41] [INFO] ✓ Updated media.artyultra.dev to 136.38.211.90
+[2025-12-05 19:29:42] [INFO] ✓ torrent.artyultra.dev is already up to date
+[2025-12-05 19:29:42] [INFO]  ============== DONE =============== 
+[2025-12-05 19:30:33] [INFO]  ==== Starting DNS Check/Update ==== 
+[2025-12-05 19:30:33] [INFO] Cached IP Addr updated from:  --> 136.38.211.90
+[2025-12-05 19:30:34] [INFO] ✓ media.artyultra.dev is already up to date
+[2025-12-05 19:30:34] [INFO] ✓ torrent.artyultra.dev is already up to date
+[2025-12-05 19:30:34] [INFO]  ============== DONE =============== 
+[2025-12-05 19:30:58] [INFO]  ==== Starting DNS Check/Update ==== 
+[2025-12-05 19:30:58] [INFO] Cached IP Addr updated from:  --> 136.38.211.90
+/Users/kiga/cloudflare/scripts/helpers.sh: line 71: ZONE_IDS: unbound variable
+[2025-12-05 19:31:53] [INFO]  ==== Starting DNS Check/Update ==== 
+[2025-12-05 19:31:53] [INFO] Cached IP Addr updated from:  --> 136.38.211.90
+jq: error (at <stdin>:0): Cannot iterate over null (null)
+[2025-12-05 19:31:53] [INFO]  ============== DONE =============== 
+[2025-12-05 19:34:41] [INFO]  ==== Starting DNS Check/Update ==== 
+[2025-12-05 19:34:41] [INFO] No change in IP address
+[2025-12-05 19:34:47] [INFO]  ==== Starting DNS Check/Update ==== 
+[2025-12-05 19:34:47] [INFO] Cached IP Addr updated from:  --> 136.38.211.90
+[2025-12-05 19:34:48] [INFO] ✓ Updated media.artyultra.dev to 136.38.211.90
+[2025-12-05 19:34:49] [INFO] ✓ Updated torrent.artyultra.dev to 136.38.211.90
+[2025-12-05 19:34:49] [INFO]  ============== DONE =============== 
+[2025-12-05 19:35:47] [INFO]  ==== Starting DNS Check/Update ==== 
+[2025-12-05 19:35:48] [INFO] Cached IP Addr updated from:  --> 136.38.211.90
+null
+[2025-12-05 19:35:48] [INFO] ✓ Updated media.artyultra.dev to 136.38.211.90
+null
+[2025-12-05 19:35:49] [INFO] ✓ Updated torrent.artyultra.dev to 136.38.211.90
+[2025-12-05 19:35:49] [INFO]  ============== DONE =============== 
+[2025-12-05 19:37:29] [INFO]  ==== Starting DNS Check/Update ==== 
+[2025-12-05 19:37:29] [INFO] Cached IP Addr updated from:  --> 136.38.211.90
+[2025-12-05 19:37:30] [ERROR] ✗ Failed to update media.artyultra.dev
+[2025-12-05 19:37:30] [ERROR] Could not route to /client/v4/zones/25a32bc89b389a7c0d830f3e153ab050EEEE/dns_records/1598544765b99d8f410b9ee9eee81f2a, perhaps your object identifier is invalid?
+[2025-12-05 19:37:30] [INFO] ✓ torrent.artyultra.dev is already up to date
+[2025-12-05 19:37:30] [INFO]  ============== DONE =============== 
+[2025-12-05 20:28:19] [INFO]  ==== Starting DNS Check/Update ==== 
+[2025-12-05 20:28:19] [INFO] No change in IP address
+[2025-12-05 20:28:46] [INFO]  ==== Starting DNS Check/Update ==== 
+[2025-12-05 20:28:46] [INFO] No change in IP address
+[2025-12-05 20:28:46] [INFO]  ============== DONE =============== 
